@@ -1,2 +1,6 @@
 # OpenMP_Matrix_Multiplication
-A C program that utilized OpenMP for parallelization of matrix multiplication.
+
+This C program utilizes OpenMP for parallelization of matrix multiplication. The input is two 2048x2048 matrices. The scheduling type and number of threads are entered by the user through enviroment variables OMP_SCHEDULE and OMP_NUM_THREADS. The purpose of the program is to compare the execution time using different scheduling types and numbers of threads, so each matrix was initialized with constant values. 
+The omp_get_wtime function is used to calculate and print the execution time. Matrix multiplication is performed in parallel using OpenMP, and the result is stored in the "result.txt" file.
+
+
